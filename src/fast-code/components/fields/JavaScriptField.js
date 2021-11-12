@@ -3,6 +3,7 @@
 export const JavaScriptField = ({ javascriptCode, handleInputChange }) => {
     return (
             <textarea
+                id="js"
                 className="field"
                 name="javascriptCode"
                 placeholder="JavaScript"
