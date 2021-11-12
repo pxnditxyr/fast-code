@@ -18,8 +18,13 @@ export const FastCode = () => {
 
     return (
         <>
-            <h1> Fast Code </h1>
-            <hr />
+            <header>
+                <div className="image-container">
+                    <img src="https://www.emi.edu.bo/images/emi-900.png" />
+                </div>
+                <h1> Fast Code </h1>
+                <hr />
+            </header>
             <div className="container">
                 <Split className="vertical-split" sizes={[ 50, 50 ]} direction="vertical">
                     <Split className="horizontal-split" sizes={[ 50, 50 ]}>
